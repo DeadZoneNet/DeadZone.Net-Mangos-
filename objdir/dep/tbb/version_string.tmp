@@ -1,0 +1,11 @@
+#define __TBB_VERSION_STRINGS \
+"TBB: BUILD_HOST\t\tdead-zone (x86_64)" ENDL \
+"TBB: BUILD_OS\t\tDebian GNU/Linux 5.0 n l" ENDL \
+"TBB: BUILD_KERNEL\tLinux 2.6.26-2-amd64 #1 SMP Thu Nov 25 04:30:55 UTC 2010" ENDL \
+"TBB: BUILD_GCC\t\tgcc version 4.3.2 (Debian 4.3.2-1.1) " ENDL \
+"TBB: BUILD_GLIBC\t2.7" ENDL \
+"TBB: BUILD_LD\t\t" ENDL \
+"TBB: BUILD_TARGET\tintel64 on cc4.3.2_libc2.7_kernel2.6.26" ENDL \
+"TBB: BUILD_COMMAND\tg++ -DDO_ITT_NOTIFY -O2 -DUSE_PTHREAD -m64 -fPIC -D__TBB_BUILD=1 -Wall -Wno-parentheses -I../../../dep/tbb/src -I../../../dep/tbb/src/rml/include -I../../../dep/tbb/include" ENDL \
+
+#define __TBB_DATETIME "Tue Feb 8 16:52:53 UTC 2011"

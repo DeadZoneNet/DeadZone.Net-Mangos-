@@ -1,0 +1,10 @@
+prefix=/opt/mangos_x100
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ACE
+Description: ADAPTIVE Communication Environment 
+Version: 5.8.3
+Libs: -L${libdir} -lACE -lrt -ldl 
+Cflags: -I${includedir}
