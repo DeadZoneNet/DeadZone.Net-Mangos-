@@ -61,3 +61,4 @@ object FrmSearch: TFrmSearch
     OnClick = btCancelClick
   end
 end
+
